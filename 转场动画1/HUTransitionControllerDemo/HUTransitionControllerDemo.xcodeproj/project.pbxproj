@@ -1,0 +1,352 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F02067F1DC9B309004B09BA /* HUTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F02067E1DC9B309004B09BA /* HUTableViewController.swift */; };
+		4FFC01A61DC8900100D30E24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFC01A51DC8900100D30E24 /* AppDelegate.swift */; };
+		4FFC01A81DC8900100D30E24 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFC01A71DC8900100D30E24 /* ViewController.swift */; };
+		4FFC01AB1DC8900100D30E24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FFC01A91DC8900100D30E24 /* Main.storyboard */; };
+		4FFC01AD1DC8900100D30E24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FFC01AC1DC8900100D30E24 /* Assets.xcassets */; };
+		4FFC01B01DC8900100D30E24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FFC01AE1DC8900100D30E24 /* LaunchScreen.storyboard */; };
+		4FFC01BB1DC890F000D30E24 /* HUNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFC01BA1DC890F000D30E24 /* HUNavigationController.swift */; };
+		4FFC01BD1DC8910700D30E24 /* HUTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFC01BC1DC8910700D30E24 /* HUTabBarController.swift */; };
+		4FFC01C11DC891D800D30E24 /* HUNavigationControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFC01C01DC891D800D30E24 /* HUNavigationControllerDelegate.swift */; };
+		4FFC01C31DC8921F00D30E24 /* HUTabBarControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFC01C21DC8921F00D30E24 /* HUTabBarControllerDelegate.swift */; };
+		4FFC01C51DC8925C00D30E24 /* HUTransitioningDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFC01C41DC8925C00D30E24 /* HUTransitioningDelegate.swift */; };
+		4FFC01C71DC8937300D30E24 /* HUAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFC01C61DC8937300D30E24 /* HUAnimationController.swift */; };
+		4FFC01C91DC8938400D30E24 /* HUAnimationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFC01C81DC8938400D30E24 /* HUAnimationProtocol.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4F02067E1DC9B309004B09BA /* HUTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HUTableViewController.swift; sourceTree = "<group>"; };
+		4FFC01A21DC8900100D30E24 /* HUTransitionControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HUTransitionControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FFC01A51DC8900100D30E24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4FFC01A71DC8900100D30E24 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4FFC01AA1DC8900100D30E24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4FFC01AC1DC8900100D30E24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4FFC01AF1DC8900100D30E24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4FFC01B11DC8900100D30E24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FFC01BA1DC890F000D30E24 /* HUNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HUNavigationController.swift; sourceTree = "<group>"; };
+		4FFC01BC1DC8910700D30E24 /* HUTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HUTabBarController.swift; sourceTree = "<group>"; };
+		4FFC01C01DC891D800D30E24 /* HUNavigationControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HUNavigationControllerDelegate.swift; sourceTree = "<group>"; };
+		4FFC01C21DC8921F00D30E24 /* HUTabBarControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HUTabBarControllerDelegate.swift; sourceTree = "<group>"; };
+		4FFC01C41DC8925C00D30E24 /* HUTransitioningDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HUTransitioningDelegate.swift; sourceTree = "<group>"; };
+		4FFC01C61DC8937300D30E24 /* HUAnimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HUAnimationController.swift; sourceTree = "<group>"; };
+		4FFC01C81DC8938400D30E24 /* HUAnimationProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HUAnimationProtocol.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4FFC019F1DC8900100D30E24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4FFC01991DC8900100D30E24 = {
+			isa = PBXGroup;
+			children = (
+				4FFC01A41DC8900100D30E24 /* HUTransitionControllerDemo */,
+				4FFC01A31DC8900100D30E24 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4FFC01A31DC8900100D30E24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FFC01A21DC8900100D30E24 /* HUTransitionControllerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4FFC01A41DC8900100D30E24 /* HUTransitionControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4FFC01B71DC8909300D30E24 /* HUTransitionController */,
+				4FFC01A51DC8900100D30E24 /* AppDelegate.swift */,
+				4FFC01A71DC8900100D30E24 /* ViewController.swift */,
+				4F02067E1DC9B309004B09BA /* HUTableViewController.swift */,
+				4FFC01A91DC8900100D30E24 /* Main.storyboard */,
+				4FFC01AC1DC8900100D30E24 /* Assets.xcassets */,
+				4FFC01AE1DC8900100D30E24 /* LaunchScreen.storyboard */,
+				4FFC01B11DC8900100D30E24 /* Info.plist */,
+			);
+			path = HUTransitionControllerDemo;
+			sourceTree = "<group>";
+		};
+		4FFC01B71DC8909300D30E24 /* HUTransitionController */ = {
+			isa = PBXGroup;
+			children = (
+				4FFC01C41DC8925C00D30E24 /* HUTransitioningDelegate.swift */,
+				4FFC01BC1DC8910700D30E24 /* HUTabBarController.swift */,
+				4FFC01C21DC8921F00D30E24 /* HUTabBarControllerDelegate.swift */,
+				4FFC01BA1DC890F000D30E24 /* HUNavigationController.swift */,
+				4FFC01C01DC891D800D30E24 /* HUNavigationControllerDelegate.swift */,
+				4FFC01C61DC8937300D30E24 /* HUAnimationController.swift */,
+				4FFC01C81DC8938400D30E24 /* HUAnimationProtocol.swift */,
+			);
+			name = HUTransitionController;
+			path = ../../HUTransitionController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4FFC01A11DC8900100D30E24 /* HUTransitionControllerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FFC01B41DC8900100D30E24 /* Build configuration list for PBXNativeTarget "HUTransitionControllerDemo" */;
+			buildPhases = (
+				4FFC019E1DC8900100D30E24 /* Sources */,
+				4FFC019F1DC8900100D30E24 /* Frameworks */,
+				4FFC01A01DC8900100D30E24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HUTransitionControllerDemo;
+			productName = HUTransitionControllerDemo;
+			productReference = 4FFC01A21DC8900100D30E24 /* HUTransitionControllerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4FFC019A1DC8900100D30E24 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HU;
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = xiaoming;
+				TargetAttributes = {
+					4FFC01A11DC8900100D30E24 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 5N786YUEGD;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4FFC019D1DC8900100D30E24 /* Build configuration list for PBXProject "HUTransitionControllerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4FFC01991DC8900100D30E24;
+			productRefGroup = 4FFC01A31DC8900100D30E24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4FFC01A11DC8900100D30E24 /* HUTransitionControllerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4FFC01A01DC8900100D30E24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FFC01B01DC8900100D30E24 /* LaunchScreen.storyboard in Resources */,
+				4FFC01AD1DC8900100D30E24 /* Assets.xcassets in Resources */,
+				4FFC01AB1DC8900100D30E24 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4FFC019E1DC8900100D30E24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FFC01BB1DC890F000D30E24 /* HUNavigationController.swift in Sources */,
+				4FFC01C31DC8921F00D30E24 /* HUTabBarControllerDelegate.swift in Sources */,
+				4FFC01C11DC891D800D30E24 /* HUNavigationControllerDelegate.swift in Sources */,
+				4FFC01BD1DC8910700D30E24 /* HUTabBarController.swift in Sources */,
+				4FFC01C91DC8938400D30E24 /* HUAnimationProtocol.swift in Sources */,
+				4FFC01A81DC8900100D30E24 /* ViewController.swift in Sources */,
+				4FFC01C51DC8925C00D30E24 /* HUTransitioningDelegate.swift in Sources */,
+				4FFC01A61DC8900100D30E24 /* AppDelegate.swift in Sources */,
+				4F02067F1DC9B309004B09BA /* HUTableViewController.swift in Sources */,
+				4FFC01C71DC8937300D30E24 /* HUAnimationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4FFC01A91DC8900100D30E24 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FFC01AA1DC8900100D30E24 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4FFC01AE1DC8900100D30E24 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FFC01AF1DC8900100D30E24 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4FFC01B21DC8900100D30E24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4FFC01B31DC8900100D30E24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4FFC01B51DC8900100D30E24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5N786YUEGD;
+				INFOPLIST_FILE = HUTransitionControllerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.xiaoming.HUTransitionControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4FFC01B61DC8900100D30E24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5N786YUEGD;
+				INFOPLIST_FILE = HUTransitionControllerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.xiaoming.HUTransitionControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4FFC019D1DC8900100D30E24 /* Build configuration list for PBXProject "HUTransitionControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FFC01B21DC8900100D30E24 /* Debug */,
+				4FFC01B31DC8900100D30E24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FFC01B41DC8900100D30E24 /* Build configuration list for PBXNativeTarget "HUTransitionControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FFC01B51DC8900100D30E24 /* Debug */,
+				4FFC01B61DC8900100D30E24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4FFC019A1DC8900100D30E24 /* Project object */;
+}
